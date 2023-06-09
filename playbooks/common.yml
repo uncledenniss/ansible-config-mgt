@@ -48,6 +48,6 @@
 
     - name: set timezone
       timezone:
-        name: America/New_York
+        name: America/Maryland
 
 
