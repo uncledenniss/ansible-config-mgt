@@ -16,4 +16,4 @@ build worked time to see if push does
 now checking if save_artifacts dey work
 
 #check 2
-#check 3 check 4 check 5 mzanzi tee big
+#check 3 check 4 check 5 mzanzi tee big build
