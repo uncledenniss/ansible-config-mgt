@@ -1,0 +1,15 @@
+{
+    "php.executablePath": "C:/wamp64/bin/php/php8.1.0/php.exe",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "php.validate.executablePath": "",
+    "php.debug.executablePath": "",
+    "diffEditor.renderSideBySide": false,
+    "git.autofetch": true,
+    "remote.SSH.remotePlatform": {
+        "Jenkins-Ansible": "linux"
+    }
+}
