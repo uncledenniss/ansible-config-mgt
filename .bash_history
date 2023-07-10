@@ -217,3 +217,68 @@ cd /home/ubuntu/ansible-config-artifact/playbooks/../static-assignments/
 ls -al
 ansible-playbook -i /home/ubuntu/ansible-config-artifact/inventory/uat.yml /home/ubuntu/ansible-config-artifact/playbooks/site.yml
 ansible-playbook -i /home/ubuntu/ansible-config-artifact/inventory/uat.yml /home/ubuntu/ansible-config-artifact/playbooks/site.yml
+git --version
+git init
+git config --global init.defaultBranch main
+git init
+git pull https://github.com/uncledenniss/ansible-config-mgt.git
+git remote add origin https://github.com/uncledenniss/ansible-config-mgt.git
+git branch roles-feature
+git switch roles-feature
+sudo ansible-galaxy install geerlingguy.mysql
+mv geerlingguy.mysql/ mysql
+cd /ansible-config-artifact
+ls -al
+cd ansible-config-artifact
+cd role
+ls 
+sudo ansible-galaxy install geerlingguy.mysql
+mv geerlingguy.mysql/ mysql
+sudo mv geerlingguy.mysql/ mysql
+ls 
+cd mysql
+cd defaults
+ls -al
+sudo vi main.yml
+git add .
+git commit -m 'update'
+git push origin dynamic-assignmnets
+git branch
+git config --global init.defaultBranch main
+git branch
+ls -al
+cd role
+ls
+cd
+cd /ansible-config-artifact/role/webserver/defaults
+cd /ansible-config-artifact/role/webserver
+cd /ansible-config-artifact/role
+
+ls -al
+cd
+cd /ansible-config-artifact/role/webserver/defaults
+cd ansible-config-artifact/role/webserver/defaults
+ls
+cd
+cd ansible-config-artifact/role/mysql
+ls
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/uncledenniss/ansible-config-mgt.git
+git push -u origin dynamic-assignmnets
+git add .
+git commit -m "Commit new role files into GitHub"
+git push --set-upstream origin roles-feature
+cd ansible-config-artifact/role
+ls
+git add .
+git commit -m "Commit new role files into GitHub"
+git push --set-upstream origin roles-feature
+sudo vi /etc/ansible/ansible.cfg
+sudo vi /etc/ansible/sshd_cfg
+cd tec
+cd etc
+sudo vim /etc/ssh/sshd_config
+sudo vim /etc/ssh/ssh_config
+sudo vim /etc/ssh/sshd_config
+sudo service ssh restart
